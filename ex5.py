@@ -1,5 +1,6 @@
 import pymongo
-#from mongoDB no sql database
+
+#from mongoDB no sql database and i have to install pymongo
 
 con = pymongo.MongoClient("mongodb://localhost:27017")
 db = con["univ"]
