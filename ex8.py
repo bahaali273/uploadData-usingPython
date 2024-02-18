@@ -14,4 +14,4 @@ if responses.status_code ==200 :
 
     print()
 else:
-    print("Faild to load web API")
+    print("Failed to load web API")
