@@ -15,4 +15,3 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 random.seed(10)
 print(random.random())
-plt.show()
