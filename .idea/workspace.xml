@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5241b1f-e368-494f-8a18-1fd9992d5a34" name="Changes" comment="read data file from using python" />
+    <list default="true" id="d5241b1f-e368-494f-8a18-1fd9992d5a34" name="Changes" comment="read data file from using python">
+      <change beforePath="$PROJECT_DIR$/ex26.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex26.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,30 +22,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cJgBDlX427Xyxak4N1PcKyTYnX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ex1.executor": "Run",
-    "Python.ex2.executor": "Run",
-    "Python.ex3.executor": "Run",
-    "Python.ex4.executor": "Run",
-    "Python.ex5.executor": "Run",
-    "Python.ex6.executor": "Run",
-    "Python.ex7.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bahaaaljuboori/PycharmProjects/FirstDataPreProcessProject/pythonProject1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bahaaaljuboori/PycharmProjects/FirstDataPreProcessProject/pythonProject1&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

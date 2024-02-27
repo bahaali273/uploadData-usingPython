@@ -12,7 +12,8 @@ import statsmodels.api as sm
 s = sm.add_constant(x)
 result = sm.OLS(y, s).fit()
 print(result.summary())
-#yh =  0.2750 + 0.0017 * x ( x for example what is the result for the student result in SAT program to predect his marks in the university)
+#yh =  0.2750 + 0.0017 * x
+# ( x for example what is the result for the student result in SAT program to predect his marks in the university)
 
 b = result.params[0]
 w = result.params[1]

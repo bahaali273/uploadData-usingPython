@@ -3,6 +3,7 @@ import pandas as pd
 data = pd.read_csv("lr3.csv")
 data["Attendance"] = data["Attendance"].map({"Yes":1, "No":0})
 x = data[["SAT", "Attendance"]]
+# y= output
 y = data["GPA"]
 
 print(data.describe())
