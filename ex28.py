@@ -36,3 +36,21 @@ print(cm)
 cmv = cm[0][0] + cm[1][1]
 print("CMV =")
 print(cmv/168)
+
+#Single Prediction
+
+sat = int(input("Enter SAT score"))
+gen =input("Male / Female ?")
+gender =1
+if gen =="Male":
+    gender =0
+
+sample = pd.DataFrame({'const':1,'SAT':[sat], 'Gender':[gender]})
+sample=sample[["const","SAT","Gender"]]
+admt =res.predict(sample)
+print(admt)
+
+if admt[0]> 0.59:
+    print("Accepted")
+else:
+    print("Rejected")
