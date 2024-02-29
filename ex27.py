@@ -15,8 +15,8 @@ print(res.summary())
 
 
 b = res.params[0]
-w1 = res.params[1]
-w2 = res.params[2]
+w1 = res.params[1]# SAT
+w2 = res.params[2]# Attendance
 
 
 sat = int(input("Enter SAT score"))
