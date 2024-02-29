@@ -54,3 +54,6 @@ if admt[0]> 0.59:
     print("Accepted")
 else:
     print("Rejected")
+
+
+# Learning Methods: Supervised => (input + output) && Unsupervised => (input)
