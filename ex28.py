@@ -15,6 +15,10 @@ s = sm.add_constant(x)
 res = sm.Logit(y, s).fit()
 print(res.summary())
 
+import numpy as np
+np.set_printoptions(formatter={'float':lambda x:"{0:0.3f}".format(x)})
+cls_result = res.predict()
+print(cls_result)
 
 plt.scatter(data["SAT"], data["Admitted"])
 plt.show()
