@@ -23,5 +23,13 @@ print(cls_result)
 # to change this accuracy number
 print(cls_result > 0.59)
 
+#data["result"]=cls_result => to add this to the table
+
 plt.scatter(data["SAT"], data["Admitted"])
+plt.scatter(data["SAT"], cls_result, c= "red")
 plt.show()
+
+#Confusion Matrix => comper predected and Actual data
+cm = res.pred_table()
+print(cm)
+
