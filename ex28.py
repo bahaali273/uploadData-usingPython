@@ -24,12 +24,15 @@ print(cls_result)
 print(cls_result > 0.59)
 
 #data["result"]=cls_result => to add this to the table
-
+"""
 plt.scatter(data["SAT"], data["Admitted"])
 plt.scatter(data["SAT"], cls_result, c= "red")
 plt.show()
-
+"""
 #Confusion Matrix => comper predected and Actual data
 cm = res.pred_table()
 print(cm)
-
+#168 the number of samples
+cmv = cm[0][0] + cm[1][1]
+print("CMV =")
+print(cmv/168)
