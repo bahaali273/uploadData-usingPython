@@ -1,4 +1,4 @@
-#bild model from zero
+#build model from zero
 
 import pandas as pd
 data = pd.read_csv("wh.csv")
