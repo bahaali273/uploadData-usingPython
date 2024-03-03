@@ -15,4 +15,4 @@ from keras.optimizers import Adam
 
 model = Sequential()
 model.add(Dense(1, input_shape=(128,128,20))) # 1 output and 1 input
-
+model.compile(Adam(Learning_rate=0.5),loss="mean_squared_error")
