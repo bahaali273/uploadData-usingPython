@@ -33,4 +33,7 @@ plt.show()
 
 
 #Single prediction
-
+w, b =model.get_weights()
+#retern all (W) and in the end retern (b)
+h=float(input("Enter height"))
+print(b+ w* h)
