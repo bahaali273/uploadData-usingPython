@@ -37,3 +37,23 @@ w, b =model.get_weights()
 #retern all (W) and in the end retern (b)
 h=float(input("Enter height"))
 print(b+ w* h)
+
+#Over-fitting
+# 1- Train test Split (10000 samples = Training (80% => 8000) + Testing (20% =>2000)
+# 2- Train the model (8000)
+# 3- Calculate training accuracy
+# 4- Predict (2000)
+# 5- Calculate testing accuracy
+# 6- if the training accuracy > testing accuracy (Over-fitting)
+#1
+from sklearn.model_selection import train_test_split
+xtr, xts, ytr, yts = train_test_split(x,y, test_size=0.2)
+#x (xtr),y (ytr)training 8000
+#x (xts), y (yts) Testing 2000
+model.fit(xtr, ytr, epochs=100)
+
+#3
+ytrp = model.predict(xtr)
+ytsp = model.predict(xts)
+print(mtr.r2_score(ytr,ytrp))
+print(mtr.r2_score(yts, ytsp))
