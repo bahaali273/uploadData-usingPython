@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5241b1f-e368-494f-8a18-1fd9992d5a34" name="Changes" comment="read data file from using python">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex35.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex35.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,59 +32,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex29.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex31.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex32.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex34.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex7.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bahaaaljuboori/PycharmProjects/FirstDataPreProcessProject/pythonProject1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ex1.executor": "Run",
+    "Python.ex15.executor": "Run",
+    "Python.ex16.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.ex27.executor": "Run",
+    "Python.ex28.executor": "Run",
+    "Python.ex29.executor": "Run",
+    "Python.ex3.executor": "Run",
+    "Python.ex30.executor": "Run",
+    "Python.ex31.executor": "Run",
+    "Python.ex32.executor": "Run",
+    "Python.ex34.executor": "Run",
+    "Python.ex35.executor": "Run",
+    "Python.ex4.executor": "Run",
+    "Python.ex5.executor": "Run",
+    "Python.ex6.executor": "Run",
+    "Python.ex7.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/bahaaaljuboori/PycharmProjects/FirstDataPreProcessProject/pythonProject1",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex34">
-    <configuration name="ex15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex15.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex35">
     <configuration name="ex30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -172,13 +152,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex35" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex35.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex35" />
         <item itemvalue="Python.ex34" />
         <item itemvalue="Python.ex32" />
         <item itemvalue="Python.ex31" />
         <item itemvalue="Python.ex30" />
-        <item itemvalue="Python.ex15" />
       </list>
     </recent_temporary>
   </component>
