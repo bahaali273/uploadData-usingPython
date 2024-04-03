@@ -24,5 +24,34 @@ yc =to_categorical(y) # => one hot encoding
 
 #---------PreProcessing for data (data clensing)-----------
 #---------now we will staer with AI Model-----------------
+#--------- Multiple Classification--------------------
+
+#sigmoid => for single classification
+#softmax =>for multiple Classification
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.optimizers import Adam
+
+model =Sequential()
+model.add(Dense(3,input_shape=(4,),activation='softmax'))
+model.compile(Adam(learning_rate=0.99),loss="categorical_crossentropy",
+              metrics=["accuracy"])
+model.fit(x,yc, epochs=40)
+
+# sl => sepal_length , sw => sepal-width , pl=> petal lenght ,pw=> petal width
+sl = float(input("Enter sepal length"))
+sw = float(input("Enter sepal width"))
+pl = float(input("Enter petal length"))
+pw = float(input("Enter petal length"))
 
 
+# do predict
+import numpy as np
+xt = np.array([[sl,sw,pl,pw]])
+yt= model.predict(xt)
+
+spc= np.argmax(yt)
+print(spc)
+
+spc_numbers ={i:n for i, n in enumerate(target_name)}
+print(spc_numbers[spc])
