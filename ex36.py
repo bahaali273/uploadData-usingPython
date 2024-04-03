@@ -2,7 +2,7 @@
 # the output should be the flower type
 import pandas as pd
 
-data = pd.read_csv("iris.csv")
+data = pd.read_csv("iris.csv")       
 # new strategy: if I have too many columns like 20 and the output in the end 21 i have to use this way
 # mean give me all the columns except [species] and i can add more if i want
 x = data.drop(columns=["species"])
@@ -15,4 +15,8 @@ target_name = data["species"].unique()
 #unique() => data without repation
 print(target_name)
 
-y= data["species"].map({'setosa':1, 'versicolor':2, 'virginica':3})
+# this is label wa to convert it (not recommended) => y= data["species"].map({'setosa':1, 'versicolor':2, 'virginica':3})
+y= data["species"].map({'setosa':0, 'versicolor':1, 'virginica':2})
+#convert it to (One hot) way
+from keras.utils import to_categorical
+yc =to_categorical(y)
