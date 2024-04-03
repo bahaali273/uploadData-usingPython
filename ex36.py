@@ -16,6 +16,7 @@ target_name = data["species"].unique()
 print(target_name)
 
 # this is label wa to convert it (not recommended) => y= data["species"].map({'setosa':1, 'versicolor':2, 'virginica':3})
+# target_numbers ={n:i for i, n in enumerate(target_names)}// this is loop way insted to write all attributes
 y= data["species"].map({'setosa':0, 'versicolor':1, 'virginica':2})
 #convert it to (One hot) way
 from keras.utils import to_categorical
