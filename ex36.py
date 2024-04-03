@@ -20,4 +20,9 @@ print(target_name)
 y= data["species"].map({'setosa':0, 'versicolor':1, 'virginica':2})
 #convert it to (One hot) way
 from keras.utils import to_categorical
-yc =to_categorical(y)
+yc =to_categorical(y) # => one hot encoding
+
+#---------PreProcessing for data (data clensing)-----------
+#---------now we will staer with AI Model-----------------
+
+
