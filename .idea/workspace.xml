@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5241b1f-e368-494f-8a18-1fd9992d5a34" name="Changes" comment="read data file from using python">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.py" afterDir="false" />
     </list>
@@ -23,6 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bahaali273"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bahaali273/uploadData-usingPython.git",
+    "accountId": "8d275a3b-6389-42ae-8221-813063f45ddd"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -32,34 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex29.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex31.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex32.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex34.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex35.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex36.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learining_curve.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bahaaaljuboori/PycharmProjects/FirstDataPreProcessProject/pythonProject1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ex1.executor": "Run",
+    "Python.ex15.executor": "Run",
+    "Python.ex16.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.ex27.executor": "Run",
+    "Python.ex28.executor": "Run",
+    "Python.ex29.executor": "Run",
+    "Python.ex3.executor": "Run",
+    "Python.ex30.executor": "Run",
+    "Python.ex31.executor": "Run",
+    "Python.ex32.executor": "Run",
+    "Python.ex34.executor": "Run",
+    "Python.ex35.executor": "Run",
+    "Python.ex36.executor": "Run",
+    "Python.ex4.executor": "Run",
+    "Python.ex5.executor": "Run",
+    "Python.ex6.executor": "Run",
+    "Python.ex7.executor": "Run",
+    "Python.learining_curve.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/bahaaaljuboori/PycharmProjects/FirstDataPreProcessProject/pythonProject1",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -69,7 +87,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.learining_curve">
+  <component name="RunManager" selected="Python.ex36">
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -182,10 +200,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex36" />
         <item itemvalue="Python.learining_curve" />
         <item itemvalue="Python.ex1" />
         <item itemvalue="Python.ex35" />
-        <item itemvalue="Python.ex36" />
         <item itemvalue="Python.ex34" />
       </list>
     </recent_temporary>
@@ -193,7 +211,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
